@@ -1,30 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./files/styles.css" rel="stylesheet">
-    <script src="./files/script.js"></script>
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./files/styles.css" rel="stylesheet">
+  <script src="./files/script.js"></script>
+  <title>Document</title>
 </head>
 <body>
-    <main>
-        <div class="left">
-            <img src="./imgs/noun-star-6517923.svg">
-            <h1>ODIN</h1>
-        </div>
-        <form class="right">
-            <div class="hero"><h2>Hero text</h2></div>
-            <div>
-                <h2>Sign Up Info</h2>
-                <button>Create Account</button>
-                <p><a>Already have an account? Log in</a></p>
-            </div>
-        </form>
-    </main>
-    <footer>
-        <p>Photo by <a href="https://unsplash.com/@sharonmccutcheon?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Alexander Grey</a> on <a href="https://unsplash.com/photos/a-blurry-photo-of-a-blurry-background-NkQD-RHhbvY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
-        <p>Star by bajuja from <a href="https://thenounproject.com/browse/icons/term/star/" target="_blank" title="Star Icons">Noun Project</a> (CC BY 3.0)</p>
-    </footer>
+  <main>
+    <div class="left">
+      <div>
+        <img src="./imgs/noun-star-6517923.svg" class="icon">
+        <h1>ODIN</h1>
+      </div>
+      <p>Photo by <a href="https://unsplash.com/@sharonmccutcheon?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Alexander Grey</a> on <a href="https://unsplash.com/photos/a-blurry-photo-of-a-blurry-background-NkQD-RHhbvY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
+      <p>Star by bajuja from <a href="https://thenounproject.com/browse/icons/term/star/" target="_blank" title="Star Icons">Noun Project</a> (CC BY 3.0)</p>
+    </div>
+    <form class="right">
+      <div class="hero"><h2>Hero text</h2></div>
+      <div>
+        <h2>Sign Up Info</h2>
+        <fieldset>
+          <div>
+            <label for="fname">First Name</label>
+            <input type="text" name="first-name" id="fname">
+            <label for="lname">Last Name</label>
+            <input type="text" name="last-name" id="lname">
+          </div>
+          <div>
+            <label for="email">email</label>
+            <input type="text" name="email" id="email">
+            <label for="phone">Phone Number</label>
+            <input type="text" name="phone-number" id="phone">
+          </div>
+          <div>
+            <label for="password">Password</label>
+            <input type="text" name="password" id="password">
+            <label for="confirm">Confirm Password</label>
+            <input type="text" name="confirm-password" id="confirm">
+          </div>
+        </fieldset>
+        <button>Create Account</button>
+        <p><a>Already have an account? Log in</a></p>
+      </div>
+    </form>
+  </main>
 </body>
 </html>

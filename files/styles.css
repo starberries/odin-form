@@ -1,1 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+main, .left, .left div {
+    display: flex;
+}
+
+.icon {
+    width: 6rem;
+}
+
+.left {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    background-image: url("../imgs/alexander-grey-NkQD-RHhbvY-unsplash.jpg");
+    background-size: 100%;
+}
+
+.right {
+    text-align: center;
+}
